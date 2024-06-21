@@ -1,0 +1,34 @@
+*{ box-sizing: border-box;}
+
+@font-face {
+font-family: "CarlaSansLight";
+src: url("../fonts/CarlaSansLight.ttf") format("truetype");
+font-style: Light;
+font-weight: Light;
+}
+
+p{ font-family: 'CarlaSansLight'; }
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f5fd;
+}
+
+.my_numbers_block {
+    width: 80%;
+    height: 80%;
+    background-color: #d8c9ff;
+    position: relative;
+    overflow: hidden;
+}
+.number {
+    position: absolute;
+    font-size: 1vw;
+    color: rgb(167, 117, 255);
+    transition: opacity 2s;
+}
