@@ -27,6 +27,7 @@ body {
     overflow: hidden;
 }
 .number {
+    font-family: "CarlaSansLight";
     position: absolute;
     font-size: 1vw;
     color: rgb(167, 117, 255);
